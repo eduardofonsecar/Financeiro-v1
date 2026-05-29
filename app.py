@@ -13,6 +13,14 @@ from datetime import datetime
 st.set_page_config(page_title="Finance Dashboard V2.0", layout="wide")
 
 # =========================================================
+TEMPORARÁRIO
+# =========================================================
+
+st.write("TOTAL DF:", len(df))
+st.write(df.groupby("tipo")["valor"].sum())
+st.write(df.head(10))
+
+# =========================================================
 # GOOGLE SHEETS
 # =========================================================
 
